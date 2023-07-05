@@ -1,0 +1,138 @@
+@media screen and (max-width: 786px) {
+    .hero-section{
+        min-height: 50vh;
+    }
+    .section-2-text{
+        font-size:24px;
+    }
+    .bottom-section{
+        flex-direction: column;
+        
+    }  
+    .card-container{
+        grid-template-rows: repeat(auto-fit , minmax(340px, 1fr));
+        grid-gap: 10px; 
+        justify-content: center;
+        width: 400px;
+        
+    }
+    body{
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+
+    }                  
+}
+
+body{
+font-family: 'Lato', sans-serif;
+}
+.hero-section{
+background-image: url("./assets/images/faizur-rehman-pHPzdEHN6Os-unsplash-1536x941.jpg");
+height: 800px;
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+width: 1300px;
+color: white;
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+
+}
+
+.hero-section-text{
+font-family: 'Lato', sans-serif;
+font-weight: 400;
+font-size: 30px;
+padding-top: 25px;
+margin-left: 450px;
+}
+span{
+font-size: 18px;
+}
+
+.you-span{
+font-size: 96px;
+color: white;
+} 
+.section-2-text{
+font-size: 80px;
+color: white;
+text-align: center;
+}
+.section-2-text h3{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.black-box-section{
+background-color: #000;
+text-align: center;
+width: 1300px;
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+}
+
+
+/* ---------------------------------------------- */
+
+.card-container {
+display: grid;
+grid-template-columns: repeat(auto-fit , minmax(340px, 1fr));
+grid-gap: 10px;
+margin-top: 0;
+justify-content: center;
+padding-right: 15px;
+padding-left: 15px;
+margin-right: 100px;
+margin-left: 100px;
+}
+
+.card{
+border: 1px solid #ccc;
+box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+border-radius: 10px;
+max-width: 400px;
+height: 400px;
+margin-right: 20px;
+}
+
+.card  img {
+max-width: 100%;
+}
+
+.card-container .text {
+padding: 5px;
+}
+
+.bottom-section{
+    display: flex;
+    flex:1 1 0px;
+    gap: 30px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    justify-content: center;
+    width: 1300px;
+}
+
+.about-me{
+    
+    padding: 10px;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+}
+.contact-me{
+    padding: 10px;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+}
+
